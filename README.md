@@ -28,9 +28,3 @@ This project is a Python-based security automation tool that audits user account
 - Python 3.10+ (or your version)
 - Standard libraries used: [csv, json, datetime, argparse, etc.]
 - External libraries (if any): [list here or “None”】【]
-
-## Setup
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/thomaskcco/CYB333.git
-   cd CYB333
