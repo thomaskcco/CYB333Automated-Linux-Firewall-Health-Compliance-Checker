@@ -28,3 +28,7 @@ This project is a Python-based security automation tool that audits user account
 - Python 3.10+ (or your version)
 - Standard libraries used: [csv, json, datetime, argparse, etc.]
 - External libraries (if any): [list here or “None”】【]
+## Test Cases
+- **Windows (expected behavior):** If `ufw`/`iptables` are not detected, the script still generates a report explaining that Linux tools are unavailable on Windows.
+- **Linux/WSL/VM (target behavior):** Detects `ufw` or `iptables`, collects rules, and flags potential issues based on rule output.
+- **Report generation:** Confirms `reports/firewall_report.txt` is created on each run.
